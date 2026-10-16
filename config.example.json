@@ -1,0 +1,56 @@
+{
+  "data_dir": "./data",
+  "timeout": 30,
+  "browser_timeout": 90,
+  "delay_seconds": 15,
+  "profiles": {
+    "cstcloud": {
+      "method": "cstcloud",
+      "institution_names": ["中国科技云通行证", "CSTCloud ID (CAS)", "China Science and Technology Cloud"],
+      "credential_hosts": ["passport.escience.cn", "aai.cstcloud.net"],
+      "username_env": "CSTCLOUD_USERNAME",
+      "password_env": "CSTCLOUD_PASSWORD"
+    },
+    "carsi": {
+      "method": "carsi",
+      "institution_names": [],
+      "credential_hosts": [],
+      "username_env": "CARSI_USERNAME",
+      "password_env": "CARSI_PASSWORD"
+    },
+    "publisher": {
+      "method": "publisher",
+      "credential_hosts": [],
+      "username_env": "PUBLISHER_USERNAME",
+      "password_env": "PUBLISHER_PASSWORD",
+      "steps": []
+    },
+    "webvpn": {
+      "method": "webvpn",
+      "entry_url": "",
+      "proxy_url_template": "",
+      "credential_hosts": [],
+      "username_env": "WEBVPN_USERNAME",
+      "password_env": "WEBVPN_PASSWORD"
+    },
+    "ezproxy": {
+      "method": "ezproxy",
+      "proxy_url_template": "",
+      "credential_hosts": [],
+      "username_env": "EZPROXY_USERNAME",
+      "password_env": "EZPROXY_PASSWORD"
+    },
+    "elsevier-api": {
+      "method": "api",
+      "url_template": "https://api.elsevier.com/content/article/doi/{doi}",
+      "headers_env": {"X-ELS-APIKey": "ELSEVIER_API_KEY"},
+      "headers": {"Accept": "application/pdf"}
+    }
+  },
+  "publishers": {
+    "sciencedirect": {"domains": ["sciencedirect.com"], "pdf_selector": "a[href*='/pdfft']"},
+    "springer": {"domains": ["link.springer.com", "nature.com"], "pdf_selector": "a[href*='/content/pdf/'], a[data-track-action='download pdf']"},
+    "wiley": {"domains": ["onlinelibrary.wiley.com"], "pdf_selector": "a[href*='/pdfdirect/'], a[href*='/epdf/']"},
+    "ieee": {"domains": ["ieeexplore.ieee.org"], "pdf_selector": "a[href*='/stamp/stamp.jsp']"}
+  }
+}

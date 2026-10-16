@@ -1,0 +1,3 @@
+interface:
+  display_name: "Paper Access"
+  short_description: "Retrieve and verify papers with institutional authentication"
