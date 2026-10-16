@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Clarify Chinese and English discovery descriptions for full-text retrieval, journal/count selection, reference-list downloads, institutional login assistance, and interrupted batches.
+- Add a default invocation prompt and guidance for verified paper selection, batch manifests, resuming existing tasks, and reconciling delivered files with requested journal counts.
+
 ## 0.2.1 — 2026-10-16
 
 - Bind Nature readers to the requested article ID and APS readers to the requested DOI, excluding other retained readers on the same publisher domain.

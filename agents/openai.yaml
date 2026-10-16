@@ -1,3 +1,4 @@
 interface:
   display_name: "Paper Access"
-  short_description: "Retrieve and verify papers with institutional authentication"
+  short_description: "按 DOI、链接或期刊批量获取论文全文，支持机构登录、下载接续与 PDF 校验"
+  default_prompt: "使用 $paper-access 下载所需论文；根据 DOI、标题、链接或期刊与数量确定目标，复用已有登录会话，校验 PDF，并汇总成功、失败及需要人工协助的项目。"
