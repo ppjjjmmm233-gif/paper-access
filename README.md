@@ -2,6 +2,8 @@
 
 中英双语说明 | Bilingual documentation (简体中文 / English)
 
+作者 / Author: **JeffreyPeng** · 单位 / Affiliation: **CAS Imech**
+
 一个可移植的学术论文获取工具：按 DOI、标题、文章 URL 或 DOI 批量列表检索论文，经开放获取（OA）、出版商 API 或机构认证（科技云 CSTCloud、CARSI、WebVPN、EZProxy、出版社账号）获取 PDF，并对每一份文件做身份校验后才交付。设计为可被任意具备 shell 执行能力的 Agent 作为技能（Skill）调用，也适合个人在命令行直接使用。
 
 A portable academic paper retrieval tool: fetch papers by DOI, title, article URL, or a DOI batch list, using open access (OA), publisher APIs, or institutional authentication (CSTCloud, CARSI, WebVPN, EZProxy, publisher accounts). Every PDF is identity-verified before delivery. It is designed to be used as a Skill by any agent with shell execution, and works equally well from the command line.
@@ -359,6 +361,10 @@ Version 0.2.1 passed 31 regression tests and a seven-paper download exercise on 
 
 ## License | 许可
 
-本版本尚未指定开源许可证。依赖项遵循各自的许可条款。下载实现的参考来源见 [references/download-design.md](references/download-design.md)。
+本项目的原创代码、技能说明和文档采用 [MIT 许可证](LICENSE)。Copyright (c) 2026 JeffreyPeng。作者单位：CAS Imech。
 
-No open-source license has been selected for this release. Dependencies retain their own licenses. Implementation references are recorded in [references/download-design.md](references/download-design.md).
+Original code, skill instructions, and documentation in this project are licensed under the [MIT License](LICENSE). Copyright (c) 2026 JeffreyPeng. Author affiliation: CAS Imech.
+
+依赖项和第三方内容保留各自的许可条款。下载取得的论文及其他材料不属于本项目的 MIT 授权范围。实现参考来源见 [references/download-design.md](references/download-design.md)。
+
+Dependencies and third-party content retain their respective licenses. Papers and other materials retrieved by this tool are not licensed under this project's MIT License. Implementation references are recorded in [references/download-design.md](references/download-design.md).
