@@ -1,10 +1,8 @@
 # Paper Access
 
-中英双语说明 | Bilingual documentation (简体中文 / English)
+简体中文 / English
 
-作者 / Author: **JeffreyPeng** · 单位 / Affiliation: **CAS Imech**
-
-一个可移植的学术论文获取工具：按 DOI、标题、文章 URL 或 DOI 批量列表检索论文，经开放获取（OA）、出版商 API 或机构认证（科技云 CSTCloud、CARSI、WebVPN、EZProxy、出版社账号）获取 PDF，并对每一份文件做身份校验后才交付。设计为可被任意具备 shell 执行能力的 Agent 作为技能（Skill）调用，也适合个人在命令行直接使用。
+一个可移植的学术论文获取工具 (Skill)：按 DOI、标题、文章 URL 或 DOI 批量列表检索论文，经开放获取（OA）、出版商 API 或机构认证（科技云 CSTCloud、CARSI、WebVPN、EZProxy、出版社账号）获取 PDF，并对每一份文件做身份校验后才交付。设计为可被任意具备 shell 执行能力的 Agent 作为技能（Skill）调用，也适合个人在命令行直接使用。直接将本项目网址交付给您的AI agent让其帮您安装即可，本句话之后的内容只适合AI自行阅读。
 
 A portable academic paper retrieval tool: fetch papers by DOI, title, article URL, or a DOI batch list, using open access (OA), publisher APIs, or institutional authentication (CSTCloud, CARSI, WebVPN, EZProxy, publisher accounts). Every PDF is identity-verified before delivery. It is designed to be used as a Skill by any agent with shell execution, and works equally well from the command line.
 

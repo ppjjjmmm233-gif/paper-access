@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+## 0.2.2 — 2026-10-17
+
+- Publish the owner's revised README introduction and preserve it under repository instructions.
 - License original code, skill instructions, and documentation under MIT, with copyright attributed to JeffreyPeng and author affiliation listed as CAS Imech.
 - Clarify Chinese and English discovery descriptions for full-text retrieval, journal/count selection, reference-list downloads, institutional login assistance, and interrupted batches.
 - Add a default invocation prompt and guidance for verified paper selection, batch manifests, resuming existing tasks, and reconciling delivered files with requested journal counts.
